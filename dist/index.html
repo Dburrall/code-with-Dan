@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code with Dan</title>
     <link rel="stylesheet" href="output.css" />
+    <script src="/dist/javascript/auto-text.js" defer></script>
   </head>
-  <body>
-    <nav class="flex items-center justify-between flex-wrap bg-violet-700 p-6">
+  <body class="bg-home-background">
+    <nav class="flex items-center justify-between flex-wrap bg-nav-color p-6">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
         <span class="font-semibold text-xl tracking-tight">Code With Dan</span>
       </div>
@@ -29,19 +30,19 @@
         <div class="text-md lg:flex-grow">
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 text-home-font hover:text-white mr-4"
           >
             About
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 text-home-font hover:text-white mr-4"
           >
             Languages
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+            class="block mt-4 lg:inline-block lg:mt-0 text-home-font hover:text-white"
           >
             Blog
           </a>
@@ -49,6 +50,20 @@
       </div>
     </nav>
 
-    <div class="container mx-auto px-4">Hello World</div>
+    <!--Intro section-->
+    <div
+      class="container mx-auto px-4 text-7xl text-home-font font-bold w-2/3 mt-20"
+    >
+      <h1>If you're learning: <span class="auto-text"></span></h1>
+
+      <h2>Then you've come to the right place.</h2>
+    </div>
+
+    <!--WHY US-->
+    <div class="bg-purple"></div>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </body>
 </html>
