@@ -10,7 +10,7 @@
   <body class="bg-slate-200" >
     <nav class="flex items-center justify-between flex-wrap bg-nav-color p-6">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <a href="index.html"><span class="font-semibold text-xl tracking-tight">Code With Dan</span></a> 
+        <a href="../index.html"><span class="font-semibold text-xl tracking-tight">Code With Dan</span></a> 
       </div>
       <div class="block lg:hidden">
         <button
@@ -21,7 +21,7 @@
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>Home</title>
+            <title></title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
@@ -29,19 +29,19 @@
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-md lg:flex-grow">
           <a
-            href="aboutUs.html"
+            href="../aboutUs.html"
             class="block mt-4 lg:inline-block lg:mt-0 text-home-font hover:text-white mr-4"
           >
             About
           </a>
           <a
-            href="languages.html"
+            href="../languages.html"
             class="block mt-4 lg:inline-block lg:mt-0 text-home-font hover:text-white mr-4"
           >
             Languages
           </a>
           <a
-            href="resources.html"
+            href="../resources.html"
             class="block mt-4 lg:inline-block lg:mt-0 text-home-font hover:text-white"
           >
             Resources
@@ -49,29 +49,40 @@
         </div>
       </div>
     </nav>
+
+    <!--CONTENT SECTION-->
     <section class="mx-auto leading-7 text-lg ml-6 mr-20 md:mr-80 md:ml-12 md:max-w-2xl md:text-center lg:max-w-none lg:mr-40 lg:ml-40">
-    <h1 class="mx-auto text-white text-2xl font bold text-center underline mt-4 md:text-4xl">EMMET</h1>
-    <h2 class="text-slate-600 mb-2 font-bold">A shortcut for VS code </h2>
-    <p class="mb-2">Luckily, you wont have to remember all of the content for the start of all your pages. There's a VS code plugin that'll output 
-        all the nececsarry code for you. A simple plugin called "Emmet". To get yourself up and running simply just put a ! at the top of your document
-    like the one pictured below and hit enter.</p>
-    <img class="mb-4" src="html-pages-img/Screenshot 2023-08-07 at 9.43.35 PM.png" src="the !doctype declaration">
-    <h2 class="text-2xl"></h2>
-    <h3 class="text-slate-600 mb-2 font-bold"></h3>
-    <p class="mb-2"></p>
+      <h1 class="mx-auto text-black text-2xl font bold text-center underline mt-4 md:text-4xl">EMMET</h1>
+        <h2 class="text-slate-600 mb-2 font-bold">A shortcut for VS code </h2>
+          <p class="mb-2">Luckily, you wont have to remember all of the content for the start of all your pages. There's a VS code plugin that'll output 
+                          all the nececsarry code for you. A simple plugin called "Emmet". To get yourself up and running simply just put a ! at the top of your document
+                          like the one pictured below and hit enter.</p>
+          <img class="mb-4" src="./html-pages-img/html-images/emmet example.png" src="the !doctype declaration">
+          <img class="mb-4" src="./html-pages-img/html-images/emmt example 2.png" src="the !doctype declaration">
+        <h2 class="text-2xl"></h2>
+          <h3 class="text-slate-600 mb-2 font-bold"></h3>
+              <p class="mb-2"></p>
 
-    <div class="bg-slate-500 w-80 md:w-full mt-10 mb-10" >
+  <div class="bg-slate-500 w-80 md:w-full mt-10 mb-10 text-white"  >
       <h2 class="font-bold ml-2">Learn By Doing</h2>
+        <ol class="lg:mx-auto">
+         <li class="p-2">Take a look at the <a href="https://docs.emmet.io/cheat-sheet/" class="text-home-background">Emmet cheat sheet.</a>  You don’t have to memorize it, but it’s good that you 
+            get familiar with the different ways it can be used.</li> 
+          <li class="p-2">
+            Go through the <a href="https://docs.emmet.io/" class="text-home-background">Emmet documentation.</a> Once again, no need to memorize everything but it would be good 
+            if you played around with all the different possibilities.
+          </li>
+      </ol>
+</div>
 
-
-
-      <div class=" space-x-48 md:space-x-10">
-        <a href="#">back</a>
-        <a href="#">next</a>
+      <div class=" space-x-24 md:space-x-10 mb-10">
+         <button class="rounded-full hover:bg-slate-600 w-20 md:w-36 bg-slate-500"><a href="./Html-home.html">back</button></a> 
+        
+         <button class="rounded-full hover:bg-slate-600 w-20 md:w-36 bg-slate-500"><a href="./semantic.html">next</button></a>
       </div>
 
 
-
+<!--FOOTER-->
 
 </section>
     <footer class="bg-home-background text-white pt-12 pb-8 px-4">
@@ -118,7 +129,7 @@
                 </div>
             </div>
         </div>
-        <div class="pt-4 mt-4 pt-6 text-gray-600 border-t border-gray-800 flex flex-col md:flex-row justify-center items-center">
+        <div class="pt-4 mt-4  text-gray-600 border-t border-gray-800 flex flex-col md:flex-row justify-center items-center">
           <div>© 2023 DannyTheDev LLC.</div>
           <div>&nbsp;All rights reserved.</div>
         </div>
