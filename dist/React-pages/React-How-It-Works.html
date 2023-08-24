@@ -51,33 +51,27 @@
 
     <!--CONTENT-->
     <section class="mx-auto leading-7 text-lg ml-6 mr-20 md:mr-80 md:ml-12 md:max-w-2xl md:text-center lg:max-w-none lg:mr-40 lg:ml-40">
-      <h1 class="mx-auto text-black text-2xl font bold text-center underline mt-4 md:text-4xl">React</h1>
-       <h2 class="text-slate-600 mb-2 font-bold">A JS Library</h2>
-         <p class="mb-2">Welcome to your first taste of React. What is React exactly? React is a JavaScript library for building user interfaces. 
-            It is one of the most popular JavaScript libraries in the world. Your next question probably is: "What is a Library?". Libraries are a collection of prewritten code that can be referenced in programming code.
-            Think of them as a  collections of files, programs, routines, scripts, or functions that can be used to optimize tasks. </p>
-        <h2 class="text-2xl">So, Why React?</h2>
-          <h3 class="text-slate-600 mb-2 font-bold">Open Source & Support</h3>
-             <p class="mb-2">If you've ever looked for a job in the development field, chances are experience with React was a requirement. That's because React is very powerful, and well maintained.
-                It's component based system makes it easy to debug and fix errors, and with it being open source, the community with React is as strong as it is big. After working with React in the next 
-                few chapters I believe you'll see why it's popularity is everywhere.
-             </p>
-             <img class="mb-4" src="#" alt="">
+      <h1 class="mx-auto text-black text-2xl font bold text-center underline mt-4 md:text-4xl">The Virtual DOM</h1>
+       <h2 class="text-slate-600 mb-2 font-bold">What is it?</h2>
+         <p class="mb-2">Imagine you're building a house of cards – you stack up playing cards in a specific order to create your card house. Now, let's relate this to web development and React's Virtual DOM.
+          REAL DOM:Think of the "real DOM" like a physical version of your card house. It's the actual structure of your web page that your browser creates based on the HTML you write. Every time you want to change something, 
+          like adding or removing a card, you need to rebuild the whole card house. This can be slow and tedious if you have a big card house.
+         </p>Virtual DOM: Now, imagine you have a blueprint of your card house, where you can plan changes without touching the actual cards. This "blueprint" is the "Virtual DOM." Instead of directly modifying the real card house, you make changes to this blueprint.
+        <h2 class="text-2xl">Rendering</h2>
+          <h3 class="text-slate-600 mb-2 font-bold">What it's all about</h3>
+             <p class="mb-2"> In React, you define your user interface using components. Each component has a render method that returns a virtual representation of the UI for that component.
+
+               When a change occurs in your application, such as new data or a user interaction, React creates a new virtual DOM representation of the updated UI. This new virtual representation is then compared with the previous one. we call this Reconciliation.</p>
+             <img class="mb-4" src="#" alt=""><!--Optional Image-->
 
     <div class="bg-slate-500 w-80 md:w-full mt-10 mb-10 text-white" >
       <h2 class="font-bold ml-2">Learn By Doing</h2>
-      <ul class="mr-4 ml-4">
-        <li class="list-disc md:list-inside">Get to know the <a class="text-home-background" href="https://react.dev/">React Docs.</a> You'll be frequently using them throughout your career. </li>
-        <li class="list-disc md:list-inside">Side note: You'll see a lot about "Create-React-App" in other sites and tutorials. As of now it is no longer being maintained and NOT recommended to use.
-          If you need something, use <a class="text-home-background" href="stackblitz.io">Stackblitz</a> where you can launch your own react app in milliseconds.
-        </li>
-      </ul>
-
+<!--Instructions on assignment, or resources to something -->
 
     </div>
       <div class="space-x-24 md:space-x-10 mb-10">
-       
-        <button class="rounded-full hover:bg-slate-600 w-20 md:w-36 bg-slate-500" > <a href="React-How-It-Works.html">next</button></a>
+        <button class="rounded-full hover:bg-slate-600 w-20 md:w-36 bg-slate-500" > <a href="#">Prev</button></a>
+        <button class="rounded-full hover:bg-slate-600 w-20 md:w-36 bg-slate-500" > <a href="#">next</button></a>
       </div>
 
 
@@ -112,11 +106,11 @@
                 <div class="text-gray-700 flex flex-col w-full">
                     <div class="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Follow Us</div>
                     <div class="flex pl-4 justify-start mt-2">
-                        <a class="block items-center text-gray-300 hover:text-white mr-6 no-underline" href="#">
+                        <a class="block  items-center text-gray-300 hover:text-white mr-6 no-underline" href="#">
                             <svg viewBox="0 0 24 24" class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z" /></svg>
                         </a>
-                        <a class="block items-center text-gray-300 hover:text-white mr-6 no-underline" href="#">
+                        <a class="block  items-center text-gray-300 hover:text-white mr-6 no-underline" href="#">
                             <svg viewBox="0 0 24 24" class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z" /></svg>
                         </a>

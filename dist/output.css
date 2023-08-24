@@ -1303,6 +1303,10 @@ video {
     max-width: 36rem;
   }
 
+  .md\:list-inside {
+    list-style-position: inside;
+  }
+
   .md\:columns-2 {
     -moz-columns: 2;
          columns: 2;
