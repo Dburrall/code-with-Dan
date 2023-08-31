@@ -737,6 +737,22 @@ video {
   width: 100%;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -1289,6 +1305,10 @@ video {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:max-w-2xl {
